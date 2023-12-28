@@ -14,7 +14,7 @@ class Task1 implements Runnable {
 }
 
 class Task2 implements Runnable {
-    public void run() {                    //thread for printing values
+    public void run() {                    //thread for printing characters
     	for (char c = 'A'; c <= 'Z'; c++) {
             System.out.println("Task 2: Printing characters: " + c);
             try {
